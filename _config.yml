@@ -36,8 +36,8 @@ plugins:
 
 author:
   name: "Yifei Zhang"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "Data-centric Security ML"
+  avatar: "/assets/images/Log.png"
+  bio: "I am current a ML-developer at Solananetworks in ottawa. Writing paper =="
   location: "Ottawa, Canada"
   links:
     - label: "GitHub"
