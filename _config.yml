@@ -8,7 +8,7 @@ baseurl: ""
 repository: "Zyffff999/Zyffff999.github.io"
 
 github_username: "Zyffff999"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dark"
 search: true
 locale: "en-CA"
 timezone: "America/Montreal"
