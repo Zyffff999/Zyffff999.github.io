@@ -52,7 +52,7 @@ plugins:
 # =========================================================
 
 author:
-  name: "Fred Zhang"
+  name: "Yifei Zhang"
   avatar: "/assets/images/Log.png"
   bio: "ML Developer at Solana Networks, applying machine learning models to encrypted browsing and network traffic analysis. Sports and fitness enthusiast."
   location: "Ottawa, Canada"
@@ -65,7 +65,7 @@ author:
       url: "https://github.com/Zyffff999/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:yzhang@solananetworks.com"
+      url: "yifeizhang7@cmail.carleton.ca"
 
 # =========================================================
 # Footer
