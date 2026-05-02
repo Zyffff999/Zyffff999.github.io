@@ -2,9 +2,9 @@ theme: minimal-mistakes-jekyll
 
 
 title: "Yifei Zhang"
-email: "yzhang@solananetworks.com"
+subtitle: "Data-centric Security ML"
 description: >-
-  Data-centric Security ML | Network Telemetry | Anomaly Detection | Drift-aware Detection
+  Network telemetry, anomaly detection, model failure analysis, and drift-aware security analytics.
 
 url: "https://Zyffff999.github.io"
 baseurl: ""
@@ -40,25 +40,16 @@ author:
   name: "Yifei Zhang"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Data-centric Security ML | Network Telemetry | Anomaly Detection | Drift-aware Detection"
+  location: "Ottawa, Canada"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Zyffff999/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:yzhang@solananetworks.com"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Zyffff999/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:yzhang@solananetworks.com"
+      url: "yifeizhang7@cmail.carleton.ca"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -71,8 +62,8 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      show_date: true
 
-  # _pages
   - scope:
       path: "_pages"
       type: pages
