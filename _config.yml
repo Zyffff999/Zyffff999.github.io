@@ -1,24 +1,37 @@
+# =========================================================
+# Site Settings
+# =========================================================
 
-title: "Yifei Zhang"
-subtitle: "Data-centric Security ML"
+title: "Fred's Blog"
+subtitle: "Security ML, Network Telemetry, and Life Notes"
+name: "Fred Zhang"
+email: "yzhang@solananetworks.com"
+
 description: >-
-  Network telemetry, anomaly detection, model failure analysis, and drift-aware security analytics.
+  Personal blog by Fred Zhang. I write about security ML, network telemetry,
+  encrypted traffic analysis, model applications, and occasional notes on sports and fitness.
 
 url: "https://Zyffff999.github.io"
 baseurl: ""
 repository: "Zyffff999/Zyffff999.github.io"
 
-github_username: "Zyffff999"
-minimal_mistakes_skin: "dark"
-search: true
 locale: "en-CA"
 timezone: "America/Montreal"
 
-# Build settings
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+# Minimal Mistakes skin options:
+# default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "air"
 
-# Outputting
+search: true
+search_full_content: true
+
+# =========================================================
+# Build Settings
+# =========================================================
+
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
@@ -34,20 +47,48 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# =========================================================
+# Author Profile
+# =========================================================
+
 author:
-  name: "Yifei Zhang"
-  avatar: "/assets/images/Log.png"
-  bio: "I am current a ML-developer at Solananetworks in ottawa. Writing paper =="
+  name: "Fred Zhang"
+  avatar: "/assets/images/Log.jpg"
+  bio: "ML Developer at Solana Networks, applying machine learning models to encrypted browsing and network traffic analysis. Sports and fitness enthusiast."
   location: "Ottawa, Canada"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yifeii-zhang"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Zyffff999/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "yifeizhang7@cmail.carleton.ca"
+      url: "mailto:yzhang@solananetworks.com"
+
+# =========================================================
+# Footer
+# =========================================================
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yifeii-zhang"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Zyffff999/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:yzhang@solananetworks.com"
+
+# =========================================================
+# Defaults
+# =========================================================
 
 defaults:
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -62,12 +103,17 @@ defaults:
       toc_sticky: true
       show_date: true
 
+  # Pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+
+# =========================================================
+# Archives
+# =========================================================
 
 category_archive:
   type: liquid
@@ -76,3 +122,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# =========================================================
+# Feed
+# =========================================================
+
+atom_feed:
+  hide: false
