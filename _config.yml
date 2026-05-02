@@ -20,7 +20,7 @@ timezone: "America/Montreal"
 
 # Minimal Mistakes skin options:
 # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dark"
 
 search: true
 search_full_content: true
@@ -53,7 +53,7 @@ plugins:
 
 author:
   name: "Fred Zhang"
-  avatar: "/assets/images/Log.jpg"
+  avatar: "/assets/images/Log.png"
   bio: "ML Developer at Solana Networks, applying machine learning models to encrypted browsing and network traffic analysis. Sports and fitness enthusiast."
   location: "Ottawa, Canada"
   links:
