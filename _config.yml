@@ -39,7 +39,7 @@ plugins:
 author:
   name: "Yifei Zhang"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Data-centric Security ML | Network Telemetry | Anomaly Detection | Drift-aware Detection"
+  bio: "Data-centric Security ML & Network Telemetry & Anomaly Detection"
   location: "Ottawa, Canada"
   links:
     - label: "GitHub"
